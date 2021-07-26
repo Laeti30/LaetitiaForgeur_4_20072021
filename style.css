@@ -610,7 +610,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -659,7 +659,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto auto auto auto;
 }
 
@@ -802,6 +802,25 @@ blockquote figcaption {
 #bloc-3-what-i-do p {
     font-size: 15px;
 }
+
+#bloc-8 p {
+    color: black;
+    font-size: 20px;
+}
+
+#bloc-8 .fa {
+    margin-right: 5px;
+}
+
+#bloc-8 a {
+    color:rgba(255, 255, 255, .6);
+}
+
+.col-sm-3 span {
+    font-size: 12px;
+}
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
